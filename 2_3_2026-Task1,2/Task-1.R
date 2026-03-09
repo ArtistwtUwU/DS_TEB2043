@@ -24,6 +24,8 @@ titanic$Survived <- as.factor(titanic$Survived)
 titanic$Sex <- as.factor(titanic$Sex)
 titanic$Embarked <- as.factor(titanic$Embarked)
 
+
+write.csv(Titanic, "D:/Repos/DS_TEB2043/2_3_2026-Task1,2/Titanic_Cleaned.csv")
 #Report
 print(summary(titanic))
 
